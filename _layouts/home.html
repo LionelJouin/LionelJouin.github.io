@@ -1,0 +1,61 @@
+--- 
+layout: default 
+---
+
+<div class="home">
+  {%- if page.title -%}
+  <h1 class="page-heading">{{ page.title }}</h1>
+  {%- endif -%} 
+  
+  {{ content }} 
+  
+  {% assign built = site.posts | where: "categories","built" %} 
+  {% assign developed = site.posts | where: "categories","developed" %} 
+  {% assign articles = site.posts | where: "categories","article" %} 
+  
+  {%- if built.size > 0 -%}
+  <h2 class="post-list-heading">Built</h2>
+  <ul class="post-list">
+    {%- for post in built -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  {%- if developed.size > 0 -%}
+  <h2 class="post-list-heading">Developed</h2>
+  <ul class="post-list">
+    {%- for post in developed -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+  {%- if articles.size > 0 -%}
+  <h2 class="post-list-heading">Articles</h2>
+  <ul class="post-list">
+    {%- for post in articles -%}
+    <li>
+      {%- assign date_format = site.minima.date_format | default: "%m/%d/%Y" -%}
+      <span class="post-meta">{{ post.date | date: date_format }}</span>
+      <a href="{{ post.url | relative_url }}">
+        {{ post.title | escape }}
+      </a>
+    </li>
+    {%- endfor -%}
+  </ul>
+  {%- endif -%}
+
+</div>
