@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Arcade Machine"
+title: "Weather Station"
 comments: true
 description: "An Arduino uno weather station monitoring: temperature, humidity, pressure, air quality, rain and brightness. https://weather-station-client.azurewebsites.net/"
 keywords: "DIY, node, api, loopback, ibm, azure, cloudant, mssql, server, weather-station, arduino, esp8266, dht11, bmp085, azure-webapp, azure-database, cloudant-database, bluemix, angular, client, chartjs, typescript"
