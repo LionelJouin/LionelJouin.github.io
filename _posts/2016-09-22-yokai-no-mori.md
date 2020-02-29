@@ -6,7 +6,7 @@ description: "Android implementation of the board game Yokai No Mori. Yōkai no 
 keywords: "android, java, game, boardgame, japan, chess"
 ---
 
-https://github.com/IUT-Laval/Yokai-No-Mori
+[Github](https://github.com/IUT-Laval/Yokai-No-Mori)
 
 # Yokai-No-Mori
 

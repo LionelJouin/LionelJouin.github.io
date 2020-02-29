@@ -6,9 +6,7 @@ comments: true
 keywords: "Python, Arduino, C, Tkinter, Civil-engineering"
 ---
 
-https://github.com/LionelJouin/Projet-STI2D-Parking-Vertical
-
-# Projet-STI2D-Parking-Vertical
+[Github](https://github.com/LionelJouin/Projet-STI2D-Parking-Vertical)
 
 Remote supervision project to manage vertical parking made in Python and C.
 * Management of displacements via sensors and a PLC (Programmable Logic Controller)
