@@ -8,8 +8,6 @@ keywords: "android, java, game, boardgame, japan, chess"
 
 [Github](https://github.com/IUT-Laval/Yokai-No-Mori)
 
-# Yokai-No-Mori
-
 Android implementation of the board game Yokai No Mori. Yōkai no mori is a shogi-based board game created in 2008. Shogi is a traditional Japanese game, approaching chess and opposing two players.
 
 This android implementation is only in **French**. The two versions of the game are implemented: *classic* (3x4), *expert* (5x6). The rules of the game are explained [Here](http://docs.wixstatic.com/ugd/92ca7d_5856df1dca8e4bedaebb3ed89b7f0855.pdf).
